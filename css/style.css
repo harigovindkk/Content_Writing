@@ -1,0 +1,13 @@
+.head-image{
+    background-image: url('../img/1*EioSQpM0_jj-VeOPpcNubw.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.418);
+    opacity: 20%;
+    height: 100vh;
+}
+section{
+    margin-top: 70px;
+}
