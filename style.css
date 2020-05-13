@@ -1,0 +1,279 @@
+.head-image{
+    background-image: url('../img/1*EioSQpM0_jj-VeOPpcNubw.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.418);
+    opacity: 20%;
+    height: 100vh;
+    
+
+}
+
+section{
+    margin-top: 70px;
+}
+    @media (max-width: 575.98px) {
+        .h3-responsive my-auto flex-center {
+                width: 100%;
+                margin-left: 10px;
+                font-size: 100%;
+                
+        
+        }
+        .head-image {
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+            
+        }
+        .layer {
+            width: 100%;
+        }
+        .navbar navbar-expand-lg navbar-dark {
+            width: 100%;
+        }
+        .navbar-brand {
+            width: 100%;
+        }
+        .h3-responsive mr-3 {
+            width: 100%;
+            margin-left: 5px;
+        
+        }
+        .contribute {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row mx-auto {
+            width: 100%;
+    
+        }
+        .animated fadeIn mb-4 text-white text-center {
+            font-size: 200px; 
+        }
+        .animated fadeIn mb-3 h4 text-white text-center {
+            font-size: 100px;
+        }
+
+    }
+
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .h3-responsive my-auto flex-center {
+                width: 100%;
+                margin-left: 10px;
+                font-size: 100%;
+                text-align: center;
+        }
+        .row mx-auto {
+            width: 100%;
+            padding-left: 20%;
+        }
+
+        .head-image {
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+        
+        }
+        .layer {
+            width: 100%;
+        }
+        .navbar navbar-expand-lg navbar-dark {
+            width: 100%;
+        }
+       .navbar-brand {
+            width: 100%;
+        }
+        .about {
+            width: 100%;
+        }
+        .h3-responsive mr-3 {
+            width: 100%;
+            margin-left: 5px;
+            
+        }
+        .contribute {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row mx-auto {
+            width: 100%;
+        
+        }
+        .animated fadeIn mb-4 text-white text-center {
+            font-size: 400px;
+        }
+        .animated fadeIn mb-3 h4 text-white text-center {
+            font-size: 150px;
+        }
+    }
+    
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .h3-responsive my-auto flex-center {
+            width: 100%;
+            margin-left: 10px;
+            font-size: 100%;
+            
+        }
+        .head-image {
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+            
+        }
+        .layer {
+            width: 100%;
+        }
+        .navbar navbar-expand-lg navbar-dark {
+            width: 100%;
+        }
+        navbar-brand {
+            width: 100%;
+        }
+        .about {
+            width: 100%;
+        }
+        .h3-responsive mr-3 {
+            width: 100%;
+            margin-left: 5px;
+            text-align: center;
+        }
+        .contribute {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row mx-auto {
+            width: 100%;
+            
+        }
+        .animated fadeIn mb-4 text-white text-center {
+            font-size: 600px;
+        }
+        .animated fadeIn mb-3 h4 text-white text-center {
+            font-size: 200px;
+        }
+    }
+    
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .h3-responsive my-auto flex-center {
+            width: 100%;
+            margin-left: 10px;
+            font-size: 100%;
+            
+        }
+        .head-image {
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+            
+        }
+        .layer {
+            width: 100%;
+        }
+        .navbar navbar-expand-lg navbar-dark {
+            width: 100%;
+        }
+        .navbar-brand {
+            width: 100%;
+        }
+        .about {
+            width: 100%;
+        }
+        .h3-responsive mr-3 {
+            width: 100%;
+            margin-left: 5px;
+            text-align: center;
+        }
+        .contribute {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row mx-auto {
+            width: 100%;
+            
+        }
+        .animated fadeIn mb-4 text-white text-center {
+            font-size: 800px;
+        }
+        .animated fadeIn mb-3 h4 text-white text-center {
+            font-size: 250px;
+        }
+        
+    }
+    
+    
+    @media (min-width: 1200px) {
+        .h3-responsive my-auto flex-center {
+            width: 100%;
+            margin-left: 10px;
+            font-size: 100%;
+        
+            
+        }
+        .head-image {
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+        
+        }
+        .layer {
+            width: 100%;
+        } 
+        .navbar navbar-expand-lg navbar-dark {
+            width: 100%;
+        }
+        .navbar-brand {
+            width: 100%;
+        }
+        .about {
+            width: 100%;
+        }
+        .h3-responsive mr-3 {
+            width: 100%;
+            margin-left: 5px;
+        
+        }
+        .contribute {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row {
+            width: 100%;
+            margin-left: 5px;
+        }
+        .row mx-auto {
+            width: 100%;
+
+        }
+        .animated fadeIn mb-4 text-white text-center {
+            font-size: 1000px; 
+        }
+        .animated fadeIn mb-3 h4 text-white text-center {
+            font-size: 300px;
+        }
+    }
+
+
