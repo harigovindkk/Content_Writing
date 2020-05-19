@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 19, 2020 at 10:59 AM
+-- Generation Time: May 19, 2020 at 12:59 PM
 -- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.5
+-- PHP Version: 7.4.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -29,20 +30,13 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `Content` (
   `Content_ID` int(11) NOT NULL,
-  `First_Name` varchar(100) NOT NULL,
+  `First_Name` varchar(25) NOT NULL,
   `Last_Name` varchar(100) NOT NULL,
   `Email` varchar(100) NOT NULL,
   `Phone` varchar(10) NOT NULL,
   `Insta` varchar(100) NOT NULL,
-  `Upload` binary(100) NOT NULL
+  `Upload` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `Content`
---
-
-INSERT INTO `Content` (`Content_ID`, `First_Name`, `Last_Name`, `Email`, `Phone`, `Insta`, `Upload`) VALUES
-(123, 'Hari', 'Govind', 'harigovindkk', '8943580431', 'harigovi', 0x73646667000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
 
 --
 -- Indexes for dumped tables
@@ -61,9 +55,6 @@ ALTER TABLE `Content`
 --
 -- AUTO_INCREMENT for table `Content`
 --
-ALTER TABLE `Content`
-  MODIFY `Content_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12346;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
