@@ -115,18 +115,6 @@
         <h1 class="text-center flex-center">Contribute to us</h1>
       </div>
       <div class="col-sm-5 mx-auto">
-        <!-- <div class="row">
-        <div class="md-form input-with-pre-icon mr-5">
-          <i class="fas fa-user input-prefix"></i>
-          <input type="text" id="prefixInside" class="form-control">
-          <label for="prefixInside">Example label </label>
-        </div>
-        <div class="md-form input-with-pre-icon">
-          <i class="fas fa-user input-prefix"></i>
-          <input type="text" id="prefixInside" class="form-control">
-          <label for="prefixInside">Example label </label>
-        </div>
-      </div> -->
         <p class="h3-responsive my-auto flex-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
           standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -135,7 +123,7 @@
       </div>
     </div>
     <!-- Default form register -->
-    <form class=" col-sm-6 mt-sm-5 mb-sm-5 mx-auto text-center border border-light p-5" action="#!"
+    <form class=" col-sm-6 mt-sm-5 mb-sm-5 mx-auto text-center border border-light p-5" action="form.php" method="POST"
       style="background-color: #ffffff">
 
       <p class="h4 mb-4">Submit your content</p>
@@ -143,38 +131,35 @@
       <div class="form-row mb-4">
         <div class="col">
           <!-- First name -->
-          <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+          <input type="text" name="FormFirstName" class="form-control" placeholder="First name">
         </div>
         <div class="col">
           <!-- Last name -->
-          <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+          <input type="text" name="FormLastName" class="form-control" placeholder="Last name">
         </div>
       </div>
 
       <!-- E-mail -->
-      <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-      <!-- Password -->
-      <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password"
-        aria-describedby="defaultRegisterFormPasswordHelpBlock">
-      <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-        At least 8 characters and 1 digit
-      </small>
+      <input type="email" name="FormEmail" class="form-control mb-4" placeholder="E-mail">
 
       <!-- Phone number -->
-      <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number"
-        aria-describedby="defaultRegisterFormPhoneHelpBlock">
-      <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
-        Optional - for two step authentication
-      </small>
+      <input type="text" name="FormPhone" class="form-control mb-4" placeholder="Phone number">
 
-      <!-- Newsletter -->
-      <!-- <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
-        <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
-      </div> -->
+      <input type="text" name="FormInsta" class="form-control mb-4" placeholder="Instagram Id">
 
-      <!-- Sign up button -->
+        <h6>Upload your file here</h6>
+        <div class="file-field">
+            <a class="btn-floating">
+              <i class="fas fa-cloud-upload-alt fa-2x" aria-hidden="true"></i>
+             
+              <input type="file" name="FormUpload">
+            </a>
+          </div>
+  
+      
+      
+      &nbsp;
+
       <button class="btn my-1  btn-block" type="submit"
         style="width:200px;border-radius: 20px;background-color: #1a237e;color: #e3f2fd;">Submit</button>
 
@@ -182,6 +167,7 @@
     </form>
     <!-- Default form register -->
   </section>
+  
   <section class="contribute">
     <div class="row mt-3 py-md-5 py-xs-5" style="background-color: #e3f2fd;">
       <div class="col-sm-6">

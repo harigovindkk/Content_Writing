@@ -18,15 +18,15 @@ include "topheader.php";
                 <div class="table-responsive ps">
                   <table class="table table-hover tablesorter " id="">
                     <thead class=" text-primary">
-                        <tr><th>ID</th><th>Name</th><th>Email</th><th>Phone</th><th>Insta</th><th>Content</th><th>Upload</th>
+                        <tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Email</th><th>Phone</th><th>Insta</th><th>Upload</th>
                     </tr></thead>
                     <tbody>
                       <?php 
                         $result=mysqli_query($con,"select * from Content")or die ("query 1 incorrect.....");
 
-                        while(list($Content_ID,$Name,$Email,$Phone,$Insta,$Content,$Upload)=mysqli_fetch_array($result))
+                        while(list($Content_ID,$First_Name,$Last_Name,$Email,$Phone,$Insta,$Upload)=mysqli_fetch_array($result))
                         {	
-                        echo "<tr><td>$Content_ID</td><td>$Name</td><td>$Email</td><td>$Phone</td><td>$Insta</td><td>$Content</td><td>$Upload</td>
+                        echo "<tr><td>$Content_ID</td><td>$First_Name</td><td>$Last_Name</td><td>$Email</td><td>$Phone</td><td>$Insta</td><td>$Upload</td>
 
                         </tr>";
                         }
