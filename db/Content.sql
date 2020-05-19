@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 13, 2020 at 08:08 PM
+-- Generation Time: May 19, 2020 at 10:59 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.5
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `contentwritingthomas`
+-- Database: `contentwriting`
 --
 
 -- --------------------------------------------------------
@@ -29,13 +29,20 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `Content` (
   `Content_ID` int(11) NOT NULL,
-  `Name` varchar(100) NOT NULL,
+  `First_Name` varchar(100) NOT NULL,
+  `Last_Name` varchar(100) NOT NULL,
   `Email` varchar(100) NOT NULL,
   `Phone` varchar(10) NOT NULL,
   `Insta` varchar(100) NOT NULL,
-  `Content` text NOT NULL,
-  `Upload` longblob NOT NULL
+  `Upload` binary(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `Content`
+--
+
+INSERT INTO `Content` (`Content_ID`, `First_Name`, `Last_Name`, `Email`, `Phone`, `Insta`, `Upload`) VALUES
+(123, 'Hari', 'Govind', 'harigovindkk', '8943580431', 'harigovi', 0x73646667000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
 
 --
 -- Indexes for dumped tables
@@ -55,7 +62,7 @@ ALTER TABLE `Content`
 -- AUTO_INCREMENT for table `Content`
 --
 ALTER TABLE `Content`
-  MODIFY `Content_ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Content_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12346;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
